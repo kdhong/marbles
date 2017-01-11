@@ -29,7 +29,7 @@ var cors = require('cors');
 
 //// Set Server Parameters ////
 var host = process.env.VCAP_APP_HOST||"0.0.0.0";
-var port = process.env.PORT;
+var port = "80";
 
 ////////  Pathing and Module Setup  ////////
 app.set('views', path.join(__dirname, 'views'));
